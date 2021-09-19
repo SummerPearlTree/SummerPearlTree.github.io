@@ -13,6 +13,10 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
 
 a, button { transition: all 0.3s ease; }
 
+a:link {
+  color: green;}
+a:visited { color: #551A8B; }
+
 /* Bootstrap grid system  */
 
 html {
@@ -140,7 +144,7 @@ html {
 
 .tm-btn-primary {
   background-color: #2D99CC;
-  color: green;
+  color: #3a6b35;
 }
 
 .tm-btn-primary:hover,
@@ -151,7 +155,7 @@ html {
 
 .tm-btn-success {
   background-color: #319966;
-  color: green;
+  color: #3a6b35;
 }
 
 .tm-btn-success:hover,
@@ -161,7 +165,7 @@ html {
 
 .tm-btn-danger {
   background-color: #993332;
-  color: green;
+  color: #3a6b35;
 }
 
 .tm-btn-danger:hover,
@@ -202,7 +206,8 @@ body {
 }
 
 .container {
-  background-color: floralwhite;
+  background-color: #edf2e4; 
+  /* main background color, tint of light sage */
 }
 
 p, address {
@@ -250,7 +255,7 @@ p, address {
   bottom: 0;
   left: 0;
   width: 100%;
-  color: green;
+  color: #3a6b35;
   z-index: 1000;
 }
 
@@ -258,12 +263,12 @@ p, address {
 .tm-header-inner {
   padding: 40px 50px;
   color: darkgreen;
-  text-shadow: 0.5px 0px darkgoldenrod;
+  text-shadow: 0.5px 0.5px #cbd18f;
 }
 
 .tm-site-description {
-  color: darkgoldenrod;
-  text-shadow: 1px 0.5px darkgreen;
+  color: #cbd18f;
+  text-shadow: px 0.5px darkgreen;
 }
 
 @media (max-width: 991px) {
@@ -318,14 +323,14 @@ p, address {
 }
 
 .tm-nav-link {
-  color: green;
+  color: #3a6b35;
   text-decoration: none;
   padding-bottom: 10px;
 }
 
 .tm-nav-link.active,
 .tm-nav-link:hover {
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid #3a6b35;
 }
 
 .tm-welcome-section {
@@ -408,12 +413,13 @@ p, address {
 .tm-gallery-title {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #1A6692;
+  color: black;
   margin-bottom: 15px;
 }
 
 .tm-gallery-description {
   margin-bottom: 20px;
+  color: #115c0f;
 }
 
 .tm-gallery-price {
@@ -440,14 +446,14 @@ p, address {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #2F956D;
-  background-color: transparent;
+  color: #e6a835;
+  background-color: #65820c;
 }
 
 .tm-paging-link.active,
 .tm-paging-link:hover {
-  background-color: #2F956D;
-  color: green;
+  background-color: #98c414;
+  color: #3a6b35;
 }
 
 .tm-description-figure {
@@ -491,7 +497,7 @@ p, address {
 }
 
 .tm-footer a:hover {
-  color: #1A6692;
+  color: #deab2a;
 }
 
 /* About */
@@ -555,7 +561,7 @@ p, address {
 }
 
 .tm-social-link:hover {
-  color: green;
+  color: #3a6b35;
   background-color: #646362;
 }
 
@@ -614,7 +620,7 @@ p, address {
 .tm-history-title {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #1A6692;
+  color: #deab2a;
   margin-bottom: 30px;
 }
 
@@ -816,7 +822,7 @@ address {
     content: '\f0d9';
   }
   50% {
-    color: green;
+    color: #3a6b35;
   }
   100% {
     content: "\f0d7";
@@ -828,7 +834,7 @@ address {
     content: '\f0d7';
   }
   50% {
-    color: green;
+    color: #3a6b35;
   }
   100% {
     content: "\f0d9";
@@ -853,7 +859,7 @@ address {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  background-color: green;
+  background-color: #3a6b35;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
