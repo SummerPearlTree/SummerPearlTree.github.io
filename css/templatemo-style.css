@@ -128,28 +128,30 @@ html {
 .tm-btn-default {
   border: 1px solid #ccc;
   background-color: transparent;
-  color: #626364;
+  color: #646362;
 }
 
 .tm-btn-default:hover,
 .tm-btn-default:focus {
-  color: white;
-  background-color: #98999A;
+  color: grey;
+/*  background-color: #98999A;*/
+  background-color: whitesmoke;
 }
 
 .tm-btn-primary {
   background-color: #2D99CC;
-  color: white;
+  color: green;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
-  background-color: #1b6f96;
+  /*background-color: #1b6f96;*/
+  background-color: #whitesmoke;  
 }
 
 .tm-btn-success {
   background-color: #319966;
-  color: white;
+  color: green;
 }
 
 .tm-btn-success:hover,
@@ -159,7 +161,7 @@ html {
 
 .tm-btn-danger {
   background-color: #993332;
-  color: white;
+  color: green;
 }
 
 .tm-btn-danger:hover,
@@ -200,11 +202,12 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: floralwhite;
 }
 
 p, address {
-  color: #626364;
+/*  color: #646362;*/
+  color: 646362;
   line-height: 1.8;
 }
 
@@ -247,7 +250,7 @@ p, address {
   bottom: 0;
   left: 0;
   width: 100%;
-  color: white;
+  color: green;
   z-index: 1000;
 }
 
@@ -315,14 +318,14 @@ p, address {
 }
 
 .tm-nav-link {
-  color: white;
+  color: green;
   text-decoration: none;
   padding-bottom: 10px;
 }
 
 .tm-nav-link.active,
 .tm-nav-link:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid green;
 }
 
 .tm-welcome-section {
@@ -444,7 +447,7 @@ p, address {
 .tm-paging-link.active,
 .tm-paging-link:hover {
   background-color: #2F956D;
-  color: white;
+  color: green;
 }
 
 .tm-description-figure {
@@ -483,7 +486,7 @@ p, address {
 }
 
 .tm-footer a {
-  color: #626364;
+  color: #646362;
   text-decoration: none;
 }
 
@@ -539,7 +542,7 @@ p, address {
 }
 
 .tm-social-link {
-  color: #626364;
+  color: #646362;
   display: inline-block;
   border-radius: 1px;
   background-color: transparent;
@@ -552,8 +555,8 @@ p, address {
 }
 
 .tm-social-link:hover {
-  color: white;
-  background-color: #626364;
+  color: green;
+  background-color: #646362;
 }
 
 .tm-social-icon {
@@ -662,7 +665,7 @@ p, address {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #626364;
+  color: #646362;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -740,7 +743,7 @@ address {
 
 .tm-contact-link {
   display: inline-block;
-  color: #626364;
+  color: #646362;
   margin-bottom: 25px;
   text-decoration: none;
 }
@@ -813,7 +816,7 @@ address {
     content: '\f0d9';
   }
   50% {
-    color: white;
+    color: green;
   }
   100% {
     content: "\f0d7";
@@ -825,7 +828,7 @@ address {
     content: '\f0d7';
   }
   50% {
-    color: white;
+    color: green;
   }
   100% {
     content: "\f0d9";
@@ -850,7 +853,7 @@ address {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  background-color: white;
+  background-color: green;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
