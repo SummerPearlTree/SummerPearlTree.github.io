@@ -11,11 +11,10 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
   padding: 0;
 }
 
-a, button { transition: all 0.3s ease; }
+a, button { transition: all 0.3s ease; color: #f5ad14;}
 
-a:link {
-  color: green;}
-a:visited { color: #551A8B; }
+/*a:link {}
+a:visited { color: #551A8B; }*/
 
 /* Bootstrap grid system  */
 
@@ -267,19 +266,21 @@ p, address {
 }
 
 .tm-site-description {
-  color: #cbd18f;
+  color: #97c90c;
   text-shadow: px 0.5px darkgreen;
 }
 
 @media (max-width: 991px) {
   .tm-header-inner {
-    padding: 30px 15px;
+    padding: 30px 30px;
   }
 }
 
 .tm-site-logo {
   display: inline-block;
   margin-right: 5px;
+  max-width: 30%;  
+  height: auto;
 }
 
 .tm-site-text-box {
@@ -287,8 +288,9 @@ p, address {
 }
 
 .tm-site-title {
-  font-size: 2.2rem;
+  font-size: 3.0rem;
   font-weight: 400;
+  font-family: Snell Roundhand;
   margin-bottom: 5px;
 }
 
@@ -311,6 +313,7 @@ p, address {
   list-style: none;
   display: block;
   margin-bottom: 0;
+  padding-top: 40px;
   padding-right: 25px;
   padding-left: 25px;
 }
