@@ -262,12 +262,11 @@ p, address {
 .tm-header-inner {
   padding: 40px 50px;
   color: darkgreen;
-  text-shadow: 0.5px 0.5px #cbd18f;
 }
 
 .tm-site-description {
-  color: #97c90c;
-  text-shadow: px 0.5px darkgreen;
+  color: #dbe602;
+  text-shadow: 0.8px 0.8px darkgreen;
 }
 
 @media (max-width: 991px) {
@@ -279,6 +278,7 @@ p, address {
 .tm-site-logo {
   display: inline-block;
   margin-right: 5px;
+  margin-bottom: -20px;
   max-width: 30%;  
   height: auto;
 }
@@ -292,11 +292,12 @@ p, address {
   font-weight: 400;
   font-family: Snell Roundhand;
   margin-bottom: 5px;
+  text-shadow: 1px 1px #cbd18f;
 }
 
 .tm-site-description {
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 100;
 }
 
 .tm-nav {
@@ -316,6 +317,8 @@ p, address {
   padding-top: 40px;
   padding-right: 25px;
   padding-left: 25px;
+  font-weight: 1000;
+  text-shadow: 0.2px 0.2px black;  
 }
 
 @media (max-width: 991px) {
@@ -414,10 +417,15 @@ p, address {
 }
 
 .tm-gallery-title {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   color: black;
   margin-bottom: 15px;
+}
+
+.Buy_at_Etst_link{
+  font-size: 0.75rem;
+  text-decoration: none;
 }
 
 .tm-gallery-description {
