@@ -423,6 +423,17 @@ p, address {
   margin-bottom: 15px;
 }
 
+.workspace_fig{
+  caption-side: top;
+}
+
+.tm-workspace{
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: darkgreen;
+  margin-bottom: 15px;
+}
+
 .Buy_at_Etst_link{
   font-size: 0.75rem;
   text-decoration: none;
