@@ -261,12 +261,13 @@ p, address {
 
 .tm-header-inner {
   padding: 40px 50px;
-  color: darkgreen;
+  color: #335230;
+  text-shadow: 1px 1px #86a11b;
 }
 
 .tm-site-description {
-  color: #dbe602;
-  text-shadow: 0.8px 0.8px darkgreen;
+  color: #50804b;
+  text-shadow: 0.3px 0.3px #b4e002;
 }
 
 @media (max-width: 991px) {
@@ -278,8 +279,8 @@ p, address {
 .tm-site-logo {
   display: inline-block;
   margin-right: 5px;
-  margin-bottom: -20px;
-  max-width: 30%;  
+  margin-bottom: -13px;
+  max-width: 22%;  
   height: auto;
 }
 
@@ -288,19 +289,19 @@ p, address {
 }
 
 .tm-site-title {
-  font-size: 3.0rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  font-family: Snell Roundhand;
+  font-family: Didot;
   margin-bottom: 5px;
-  text-shadow: 1px 1px #cbd18f;
 }
 
 .tm-site-description {
-  font-size: 1.3rem;
-  font-weight: 100;
+  font-size: 0.85rem;
+  font-weight: 50;
+  font-family: OCR A Std;
 }
 
-.tm-nav {
+.tm-nav a {
   text-align: right;
   margin-top: 30px;
 }
@@ -308,6 +309,7 @@ p, address {
 .tm-nav-ul {
   display: flex;
   justify-content: flex-end;
+  border-bottom: 3px solid transparent;
 }
 
 .tm-nav-li {
@@ -318,7 +320,7 @@ p, address {
   padding-right: 25px;
   padding-left: 25px;
   font-weight: 1000;
-  text-shadow: 0.2px 0.2px black;  
+  text-shadow: 0.2px 0.2px #86a11b;  
 }
 
 @media (max-width: 991px) {
@@ -334,9 +336,10 @@ p, address {
   padding-bottom: 10px;
 }
 
-.tm-nav-link.active,
-.tm-nav-link:hover {
-  border-bottom: 1px solid #3a6b35;
+
+.tm-nav-ul a:hover,{border-bottom: 3px solid #3a6b35;}
+.tm-nav-ul a.active {
+  border-bottom: 3px solid #3a6b35;
 }
 
 .tm-welcome-section {
@@ -421,10 +424,6 @@ p, address {
   font-weight: 400;
   color: black;
   margin-bottom: 15px;
-}
-
-.workspace_fig{
-  caption-side: top;
 }
 
 .tm-workspace{
